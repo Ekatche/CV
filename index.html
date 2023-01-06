@@ -714,11 +714,13 @@
         <div class="col-lg-8">
           <div class="contact-form-card">
             <h4 class="contact-title">Send a message</h4>
-            <form   action="https://formspree.io/f/mgebelza"
-  method="POST">
+            <form   
+                  action="https://formspree.io/f/mgebelza"
+                  method="POST">
               <div class="form-group">
                 <input
                   class="form-control"
+                  name="name"
                   type="text"
                   placeholder="Name *"
                   required
@@ -728,6 +730,7 @@
                 <input
                   class="form-control"
                   type="email"
+                  name="email"
                   placeholder="Email *"
                   required
                 />
@@ -735,6 +738,7 @@
               <div class="form-group">
                 <textarea
                   class="form-control"
+                  name="message"
                   placeholder="Message *"
                   rows="7"
                   required
