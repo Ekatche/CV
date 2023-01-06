@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Eliel's Personal Site</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- Font anwsomes -->
+    <script
+      src="https://kit.fontawesome.com/0a76e39cb5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- style -->
+    <link rel="stylesheet" href="..\css\styles.css" />
+  </head>
+  <!-- navbar -->
+  <nav
+    class="navbar sticky-top navbar-expand-lg navbar-light bg-white"
+    data-spy="affix"
+    data-offset-top="510"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler ml-auto"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse mt-sm-20 navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- brief introduction  -->
+
+  <body>
+    <!-- Who I am  -->
+
+    <div class="container-fluid">
+      <div id="about" class="row about-section">
+        <div class="col-lg-6 about-card">
+          <h3 class="font-weight-light">Who am I ?</h3>
+          <span class="line mb-5"></span>
+          <div class="row">
+            <div class="col-5">
+              <img src="../images/eliel_photo.jpg" class="rounded-circle me" />
+            </div>
+            <div class="col">
+              <ul class="mt40 info list-unstyled">
+                <li><span>Name</span> : Eliel KATCHE</li>
+                <li><span>Email</span> : jeaneliel.katche@gmail.com</li>
+                <li><span>Phone</span> : + (33) 06-50-34-48-18</li>
+              </ul>
+              <ul class="social-icons">
+                <a class="social-link" href="#">
+                  <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+                <a class="social-link" href="https://github.com/Ekatche?tab=repositories"
+                  ><i class="fa-brands fa-github fa-2xl"></i
+                ></a>
+              </ul>
+            </div>
+          </div>
+          <h5 class="mb-3">Un Data Scientist / Enginner basé sur Lyon</h5>
+          <p class="mt-20">
+            J'ai plus de 4 ans d'expérience professionelle et environs 2 ans
+            d'experence dans la Data
+          </p>
+        </div>
+        <!-- Expertise -->
+        <div class="col-lg-6 about-card">
+          <h3 class="font-weight-light">My Expertise</h3>
+          <span class="line mb-5"></span>
+          <div class="row">
+            <div class="col-1 pt-1">
+              <img
+                src="../images/data-management.png"
+                class="rounded icons-logo"
+              />
+            </div>
+            <div class="col-10 ml-auto mr-3">
+              <h6>Data Engineering</h6>
+              <p class="subtitle">
+                Mettre en place des bases de données.
+                Concevoir des sollution qui permettent la collecte, le nettoyage ainsi que la modelisation de donnée.
+                Suivre et maintenir les pipelines de données deployées 
+              </p>
+              <hr />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1 text-danger pt-1" style="position: relative">
+              <img src="../images/data-science.png" class="icons-logo" />
+            </div>
+            <div class="col-10 ml-auto mr-3">
+              <h6>Data Science</h6>
+              <p class="subtitle">
+                Sélectionner et mettre en œuvre des algorithmes d'apprentissage automatique pertinents sur les cas d'usage. 
+
+              </p>
+              <hr />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1 text-danger pt-1">
+              <img src="../images/analysis.png" class="icons-logo" />
+            </div>
+            <div class="col-10 ml-auto mr-3">
+              <h6>Analyse de donnée</h6>
+              <p class="subtitle">
+                Collecter et analyser les données internes et externes (web scrapping, connection API). 
+                Développer, déployer et maintenir des tableaux de bords facilitant la prise de décision sur des points clefs du business.
+              </p>
+              <hr />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1 text-danger pt-1">
+              <img src="../images/project-management.png" class="icons-logo" />
+              <i class="ti-stats-up icon-lg"></i>
+            </div>
+            <div class="col-10 ml-auto mr-3">
+              <h6>Gestion de projet</h6>
+              <p class="subtitle">
+                Communiquer les résultat et les solutions avec les équipes métiers et instances de direction en veillant à vulgariser les concepts complexes.
+              </p>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resume section  -->
+
+    <section class="section" id="resume">
+      <div class="container">
+        <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-6">
+            <div class="card">
+              <div class="card-header">
+                <div class="mt-2">
+                  <h4>Experience professionelles</h4>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="title text-danger">Oct 2022 - Present</h6>
+                <p class="intitule">Data Scientist/Engineer</p>
+                <p class="mb-2">Nodya Group</p>
+                <p class="intitule">Dataiku DSS certifications :</p>
+                <ul>
+                  <li>Core designer</li>
+                  <li>ML Practitionner</li>
+                  <li>Advanced Designer</li>
+                </ul>
+                <hr />
+                <h6 class="title text-danger">2021 - 2022</h6>
+                <p class="intitule">Data Scientist</p>
+                <p class="mb-2">Bimedoc</p>
+                <p class="mb-1">
+                  Gestion de pipeline d'extraction et d'analyse de données avec
+                  AWS:
+                </p>
+                <ul>
+                  <li>Création de Bucket S3</li>
+                  <li>Création de Job ETL en language Pyspark avec AWS Glue</li>
+                  <li>
+                    Extraction de données et creation de datasets en language
+                    SQL avec AWS Athena
+                  </li>
+                  <li>Gestion de tableaux de bords avec AWS Quicksight</li>
+                </ul>
+                <p class="mb-1">
+                  Extraction de données externes et internes, traitement puis
+                  intégration dans des outils internes et externes en langage
+                  Python (call API, web scrapping).
+                </p>
+                <p class="mb-1">
+                  Amelioration d'algorithme d'analyse d'ordonnance (Traitement
+                  d'image et NLP)
+                </p>
+                <p class="mb-1">
+                  Développement de endpoints pour des besoins divers (Django
+                  Rest Framework)
+                </p>
+                <hr />
+                <h6 class="title text-danger">2021 - 2021</h6>
+                <p class="intitule">Supply chain Analyst</p>
+                <p class="mb-2">Biomerieux</p>
+
+                <p class="mb-1">
+                  Developpement et mise a jour de tableaux de bord sur Tableau
+                  software
+                </p>
+                <p class="mb-1">
+                  Suivi des indicateurs de performance de la Supply chain du
+                  groupe.
+                </p>
+                <p class="mb-1">
+                  Participation à l’élaboration de l’outil de suivi et d’analyse
+                  de la performance Supply Chain.
+                </p>
+                <p class="mb-1">
+                  Prise en charge de l’arrêt définitif de l’ancien outil de
+                  reporting
+                </p>
+
+                <hr />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="card">
+              <div class="card-header">
+                <div class="mt-2">
+                  <h4>Education</h4>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="title text-danger">2020 - 2022</h6>
+                <p class="intitule">
+                  Mastere In Artificial Intelligence & Management
+                </p>
+                <p class="mb-2">IA School</p>
+                <p class="intitule">Year 2 :</p>
+                <p>
+                  Algèbre linéaire, Statistiques, Probabilité, Modélisation de
+                  série temporelle, Machine Learning (Regression,
+                  Classification, NLP, Computer vision), Hadoop (Map Reduce, Ambari, Yarn, Pig, Hive, Spark, Kafka),
+                  Gestion de projet, Google data studio, Design Thinking
+                </p>
+                <p class="intitule">Year 1 :</p>
+                <p>
+                  Power Bi, SQL, Python programming (Numpy, Pandas, Matplotlib,
+                  Sklearn), Talend OS, Big DATA (HADOOP, Pig, Hive, Spark),
+                  NoSQL (MongoDb), ElasticSearch.
+                </p>
+
+                <hr />
+                <h6 class="title text-danger">2018 - 2020</h6>
+                <p class="intitule">
+                  Mastere 2 en Gestion de production logistique et Achats
+                </p>
+                <p>IAE Lyon</p>
+                <p class="subtitle">
+                  Gestion de projet, entrepreneuriat, Audit industriel, Gestion
+                  de Supply chain (Production, logistique, Transport), Gestion
+                  des achats, Conduite du changement.
+                </p>
+                <hr />
+                <h6 class="title text-danger">2014 - 2017</h6>
+                <p class="intitule">
+                  Licence de gestion (Techniques quantitatives & Management et
+                  sciences humaines)
+                </p>
+                <p>IAE Lyon</p>
+                <p class="intitule">
+                  Year 3 - Exchange year in the Univesity of windsor (Ontario,
+                  Ca) :</p>
+                <p class="mt-1">
+                  Business Communication, Entrepreneurship, Business data
+                  analysis, Microéconomics, Research methods in marketing,
+                  Finance, Human ressources management.   
+                </p>
+                <p class="intitule">Year 1 & 2 - Lyon (Fr) :</p>
+                <p class="mt-1">
+                 Techniques quantitatives, Microéconomie, Macroéconomie, Droit
+                  des affaires, Comptabilité, Outils numériques d'aide à la
+                  décision.   
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Languages  -->
+          <div class="card">
+            <div class="card-header">
+              <div class="pull-left">
+                <h4 class="mt-2">Languages</h4>
+                <span class="line"></span>
+              </div>
+            </div>
+            <div class="card-body pb-2">
+              <h6>English</h6>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <h6>French</h6>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills  -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="mb-5"><span class="text-danger">My</span> Skills</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <!-- programmation  -->
+            <div class="card">
+              <div class="card-header">
+                <div class="pull-left">
+                  <h4 class="mt-2">Programmation skills</h4>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Python</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>SQL</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>JavaScript</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 55%"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <h6>HTML5 &amp; CSS</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 65%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <!-- Machine learning  -->
+            <div class="card">
+              <div class="card-header">
+                <div class="pull-left">
+                  <h4 class="mt-2">Machine learning</h4>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Classification</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Regression</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Computer Vision</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Natural language processing</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Big data -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <div class="pull-left">
+                  <h4 class="mt-2">Big Data</h4>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Hadoop</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Spark (python)</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <!-- Data bases -->
+            <div class="card">
+              <div class="card-header">
+                <div class="pull-left">
+                  <h4 class="mt-2">Databases</h4>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Relational</h6>
+                <div class="card-body pb-2">
+                  <h6>PostgreSQL</h6>
+                  <div class="progress mb-3">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      style="width: 80%"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                  <h6>Mycrosoft SQL server</h6>
+                  <div class="progress mb-3">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      style="width: 80%"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>NoSQL</h6>
+                <div class="card-body pb-2">
+                  <h6>Mongodb</h6>
+                  <div class="progress mb-3">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      style="width: 70%"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                  <h6>ElasticSearch</h6>
+                  <div class="progress mb-3">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      style="width: 70%"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Data Analyse and Data visualisation -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <div class="pull-left">
+                  <h4 class="mt-2">Data Analyse &amp; Data visualisation</h4>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Tableau Software &amp; Power Bi</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Amazon Quicksight</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Google Data studio</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Streamlit</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 90%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <!-- Web framework -->
+            <div class="card">
+              <div class="card-header">
+                <div class="pull-left">
+                  <h4 class="mt-2">Web framework</h4>
+                  <span class="line"></span>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>Django &amp; Django rest Framework</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 65%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="card-body pb-2">
+                <h6>React Js</h6>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar bg-danger"
+                    role="progressbar"
+                    style="width: 65%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Cloud Technologies -->
+        <div class="card">
+          <div class="card-header">
+            <div class="pull-left">
+              <h4 class="mt-2">Cloud</h4>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="card-body pb-2">
+            <h6>Amazon Web services</h6>
+            <div class="card-body pb-2">
+              <h6>S3</h6>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <h6>Glue</h6>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <h6>Athena</h6>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer  -->
+    <div class="section contact" id="contact">
+      <div class="container">
+        <div class="col-lg-8">
+          <div class="contact-form-card">
+            <h4 class="contact-title">Send a message</h4>
+            <form action="">
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Name *"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  type="email"
+                  placeholder="Email *"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  placeholder="Message *"
+                  rows="7"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="form-control btn btn-primary">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
